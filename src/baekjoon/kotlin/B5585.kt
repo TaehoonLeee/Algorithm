@@ -15,7 +15,7 @@ fun main() {
         }
     }
 
-    bw.write("$cnt\n")
+    bw.write("$cnt")
     bw.flush()
     bw.close()
 }
